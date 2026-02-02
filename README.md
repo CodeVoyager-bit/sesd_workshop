@@ -36,11 +36,6 @@ src/
 └── server.ts     # Entry point
 ```
 
-## Prerequisites
-
-- Node.js (v14+)
-- MongoDB (running locally on default port 27017 or set `MONGO_URI` in `.env`)
-
 ## Setup & Run
 
 1.  **Install Dependencies**:
