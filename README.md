@@ -6,8 +6,7 @@ This project implements Object-Oriented Programming (OOP) principles with a laye
 ## Features
 
 - **Books Management**: Create, Read (List + Detail), Update, Delete (CRUD)
-- **Search & Filter**: Search books by title/author/genre, filter by specific fields.
-- **Pagination & Sorting**: Efficiently browse large collections.
+- **Search**: Search books by title/author/genre.
 - **Authentication**: User registration and login with JWT.
 - **Authorization**: Role-based access control (Admin vs. Member).
 - **Validation**: Strict input validation using Mongoose schemas.
@@ -69,7 +68,7 @@ src/
 - `POST /api/auth/login` - Login and get JWT
 
 ### Books
-- `GET /api/books` - Get all books (supports `?page=1&limit=10&search=term`)
+- `GET /api/books` - Get all books (supports `?search=term`)
 - `GET /api/books/:id` - Get book details
 - `POST /api/books` - Create a book (Admin only, requires Header `Authorization: Bearer <token>`)
 - `PUT /api/books/:id` - Update a book (Admin only)
