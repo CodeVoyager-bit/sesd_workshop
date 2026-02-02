@@ -73,4 +73,4 @@ src/
 - `POST /api/books` - Create a book (Admin only, requires Header `Authorization: Bearer <token>`)
 - `PUT /api/books/:id` - Update a book (Admin only)
 - `DELETE /api/books/:id` - Delete a book (Admin only)
-# sesd_workshop
+
